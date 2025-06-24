@@ -16,7 +16,7 @@ This project emphasizes understanding the internals of CNNs without relying on p
 - Build a high-performing image classifier without using pre-trained models
 - Practice data augmentation and manual data splitting
 - Gain hands-on experience with model interpretability and visualization
-- Package the entire training and evaluation process in a single Jupyter notebook
+- Package the entire training and evaluation process in a single Google Colab
 
 ---
 
@@ -26,6 +26,8 @@ This project emphasizes understanding the internals of CNNs without relying on p
 - **Image Size:** 224×224 pixels (JPG format)
 - **Classes:**  
   `Bean, Bitter Gourd, Bottle Gourd, Brinjal, Broccoli, Cabbage, Capsicum, Carrot, Cauliflower, Cucumber, Papaya, Potato, Pumpkin, Radish, Tomato`
+
+  ![Classes](images/contoh_gambar_15_kelas_sayuran.png)
 
 **Dataset Preparation:**
 - Only the original `train/` folder was used.
@@ -89,6 +91,8 @@ Total Parameters: **9,686,223**
 
 ## 📊 Performance & Results
 
+![Evaluation Kurva Train Val](images/grafik_hasil_training_dan_val.png)
+
 | Metric              | Score     |
 |---------------------|-----------|
 | Training Accuracy   | 88.02%    |
@@ -102,17 +106,13 @@ Total Parameters: **9,686,223**
 Below is the confusion matrix based on the test set predictions.  
 All predictions shown are true positives — no class confusion occurred.
 
-![Confusion Matrix](outputs/confusion_matrix.png)
+![Confusion Matrix](images/confusion_matrix.png)
 
 ---
 
 ## 🖼️ Sample Predictions (True Positives Only)
 
-| Class     | Prediction | Sample |
-|-----------|------------|--------|
-| Tomato    | Tomato     | ![](outputs/true_predictions/tomato_01.jpg) |
-| Cucumber  | Cucumber   | ![](outputs/true_predictions/cucumber_04.jpg) |
-| Brinjal   | Brinjal    | ![](outputs/true_predictions/brinjal_09.jpg) |
+![Prediction](images/hasil_prediksi.png)
 
 ---
 
