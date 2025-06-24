@@ -110,7 +110,7 @@ All predictions shown are true positives — no class confusion occurred.
 
 ---
 
-## 🖼️ Sample Predictions (True Positives Only)
+## 🖼️ Sample Predictions
 
 ![Prediction](images/hasil_prediksi.png)
 
